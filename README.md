@@ -174,7 +174,7 @@ and are avilable for use in the *OpenCFR/pretrained/* directory.
 This library has implemented five variants of the Counterfactual Regret Minimization algorithm:
 - Vanilla CFR
     ```python
-    from src.minimizers import VanillaCFR
+    from minimizers import VanillaCFR
     ```
 - CFR+
     ```python
@@ -190,7 +190,7 @@ This library has implemented five variants of the Counterfactual Regret Minimiza
     ```
 - Monte-Carlo CFR with outcome sampling
     ```python
-    from src.minimizers import MCCFR_Outcome
+    from minimizers import MCCFR_Outcome
     ```
 
 ### Finding A Nash Equilibrium
